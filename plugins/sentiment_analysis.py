@@ -4,7 +4,7 @@ from textblob import TextBlob
 
 class SentimentAnalysis:
 
-    def _init_(self, tweet):
+    def __init__(self, tweet):
         self.tweet = tweet
 
     # only for english language
@@ -22,6 +22,6 @@ class SentimentAnalysis:
 
         return data
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     # calling main function
     SentimentAnalysis('hard to learn NLTK').execute()
