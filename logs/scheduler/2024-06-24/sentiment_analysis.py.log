@@ -1,0 +1,543 @@
+[2024-06-24T07:44:26.943+0000] {processor.py:161} INFO - Started process (PID=203) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:26.945+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:44:26.951+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:44:26.947+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:29.027+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:44:29.013+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:44:29.032+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:29.094+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 2.170 seconds
+[2024-06-24T07:44:59.319+0000] {processor.py:161} INFO - Started process (PID=209) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:59.323+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:44:59.326+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:44:59.325+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:59.729+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:44:59.714+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:44:59.733+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:44:59.761+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.453 seconds
+[2024-06-24T07:45:30.161+0000] {processor.py:161} INFO - Started process (PID=215) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:45:30.162+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:45:30.164+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:45:30.163+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:45:30.498+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:45:30.485+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:45:30.503+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:45:30.529+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.374 seconds
+[2024-06-24T07:46:00.948+0000] {processor.py:161} INFO - Started process (PID=221) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:00.950+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:46:00.952+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:46:00.951+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:01.307+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:46:01.297+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:46:01.311+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:01.337+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.392 seconds
+[2024-06-24T07:46:31.752+0000] {processor.py:161} INFO - Started process (PID=227) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:31.754+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:46:31.756+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:46:31.755+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:32.101+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:46:32.088+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:46:32.105+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:46:32.133+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.384 seconds
+[2024-06-24T07:47:02.574+0000] {processor.py:161} INFO - Started process (PID=233) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:02.576+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:47:02.578+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:47:02.577+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:02.933+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:47:02.919+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:47:02.938+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:02.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.393 seconds
+[2024-06-24T07:47:33.337+0000] {processor.py:161} INFO - Started process (PID=239) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:33.339+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:47:33.341+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:47:33.340+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:33.702+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:47:33.689+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:47:33.707+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:47:33.733+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.399 seconds
+[2024-06-24T07:48:04.108+0000] {processor.py:161} INFO - Started process (PID=245) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:04.109+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:48:04.111+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:48:04.110+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:04.563+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:48:04.553+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:48:04.568+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:04.592+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.487 seconds
+[2024-06-24T07:48:35.078+0000] {processor.py:161} INFO - Started process (PID=251) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:35.080+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:48:35.082+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:48:35.081+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:35.428+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:48:35.415+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:48:35.433+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:48:35.458+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.383 seconds
+[2024-06-24T07:49:05.793+0000] {processor.py:161} INFO - Started process (PID=257) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:05.795+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:49:05.796+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:49:05.796+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:06.178+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:49:06.169+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:49:06.181+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:06.207+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.418 seconds
+[2024-06-24T07:49:36.302+0000] {processor.py:161} INFO - Started process (PID=263) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:36.304+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:49:36.305+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:49:36.305+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:36.680+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:49:36.667+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:49:36.685+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:49:36.711+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.413 seconds
+[2024-06-24T07:50:07.011+0000] {processor.py:161} INFO - Started process (PID=269) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:07.012+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:50:07.014+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:50:07.013+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:07.369+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:50:07.356+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:50:07.374+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:07.399+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.392 seconds
+[2024-06-24T07:50:37.504+0000] {processor.py:161} INFO - Started process (PID=275) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:37.506+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:50:37.507+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:50:37.507+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:37.851+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:50:37.841+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:50:37.854+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:50:37.877+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.376 seconds
+[2024-06-24T07:51:08.172+0000] {processor.py:161} INFO - Started process (PID=281) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:08.173+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:51:08.175+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:51:08.174+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:08.531+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:51:08.516+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:51:08.536+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:08.562+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.394 seconds
+[2024-06-24T07:51:38.950+0000] {processor.py:161} INFO - Started process (PID=287) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:38.952+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:51:38.953+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:51:38.953+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:39.375+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:51:39.367+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:51:39.378+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:51:39.402+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.455 seconds
+[2024-06-24T07:52:09.901+0000] {processor.py:161} INFO - Started process (PID=293) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:09.903+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:52:09.905+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:52:09.905+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:10.419+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:52:10.404+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:52:10.425+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:10.449+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.552 seconds
+[2024-06-24T07:52:40.631+0000] {processor.py:161} INFO - Started process (PID=299) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:40.635+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:52:40.645+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:52:40.645+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:41.046+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:52:41.033+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:52:41.051+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:52:41.077+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.450 seconds
+[2024-06-24T07:53:11.235+0000] {processor.py:161} INFO - Started process (PID=305) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:11.236+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:53:11.238+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:53:11.238+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:11.626+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:53:11.618+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:53:11.629+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:11.653+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.422 seconds
+[2024-06-24T07:53:41.887+0000] {processor.py:161} INFO - Started process (PID=311) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:41.890+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:53:41.891+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:53:41.891+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:42.246+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:53:42.233+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:53:42.253+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:53:42.281+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.397 seconds
+[2024-06-24T07:54:12.361+0000] {processor.py:161} INFO - Started process (PID=317) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:12.363+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:54:12.364+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:54:12.364+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:12.718+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:54:12.705+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:54:12.723+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:12.748+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.391 seconds
+[2024-06-24T07:54:43.150+0000] {processor.py:161} INFO - Started process (PID=323) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:43.151+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:54:43.152+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:54:43.152+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:43.507+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:54:43.496+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:54:43.511+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:54:43.539+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.393 seconds
+[2024-06-24T07:55:13.991+0000] {processor.py:161} INFO - Started process (PID=329) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:13.992+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:55:13.994+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:55:13.994+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:14.362+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:55:14.347+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:55:14.367+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:14.392+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.405 seconds
+[2024-06-24T07:55:44.798+0000] {processor.py:161} INFO - Started process (PID=335) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:44.800+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:55:44.801+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:55:44.801+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:45.157+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:55:45.145+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:55:45.161+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:55:45.185+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.389 seconds
+[2024-06-24T07:56:15.607+0000] {processor.py:161} INFO - Started process (PID=341) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:15.609+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:56:15.610+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:56:15.610+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:15.971+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:56:15.956+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:56:15.976+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:16.000+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.397 seconds
+[2024-06-24T07:56:46.429+0000] {processor.py:161} INFO - Started process (PID=347) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:46.430+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:56:46.432+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:56:46.431+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:46.809+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:56:46.792+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:56:46.815+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:56:46.840+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.416 seconds
+[2024-06-24T07:57:17.265+0000] {processor.py:161} INFO - Started process (PID=353) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:17.267+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:57:17.269+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:57:17.268+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:17.629+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:57:17.618+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:57:17.633+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:17.660+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.399 seconds
+[2024-06-24T07:57:48.088+0000] {processor.py:161} INFO - Started process (PID=359) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:48.089+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:57:48.090+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:57:48.090+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:48.441+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:57:48.428+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:57:48.444+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:57:48.470+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.386 seconds
+[2024-06-24T07:58:18.887+0000] {processor.py:161} INFO - Started process (PID=365) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:18.888+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:58:18.890+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:58:18.889+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:19.263+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:58:19.248+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:58:19.267+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:19.292+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.409 seconds
+[2024-06-24T07:58:49.742+0000] {processor.py:161} INFO - Started process (PID=371) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:49.743+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:58:49.745+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:58:49.745+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:50.123+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:58:50.110+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:58:50.128+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:58:50.153+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.415 seconds
+[2024-06-24T07:59:20.591+0000] {processor.py:161} INFO - Started process (PID=377) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:59:20.593+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T07:59:20.594+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:59:20.593+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:59:20.968+0000] {logging_mixin.py:188} INFO - [2024-06-24T07:59:20.954+0000] {dagbag.py:350} ERROR - Failed to import: /opt/airflow/dags/sentiment_analysis.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/sentiment_analysis.py", line 6, in <module>
+    import sentiment_analysis_loader
+  File "/opt/airflow/plugins/sentiment_analysis_loader.py", line 3, in <module>
+    from sentiment_analysis import SentimentAnalysis
+  File "/opt/airflow/dags/sentiment_analysis.py", line 36, in <module>
+    python_callable=sentiment_analysis_loader.run
+AttributeError: partially initialized module 'sentiment_analysis_loader' has no attribute 'run' (most likely due to a circular import)
+[2024-06-24T07:59:20.973+0000] {processor.py:842} WARNING - No viable dags retrieved from /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T07:59:21.002+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/sentiment_analysis.py took 0.414 seconds
+[2024-06-24T08:16:32.063+0000] {processor.py:161} INFO - Started process (PID=385) to work on /opt/airflow/dags/sentiment_analysis.py
+[2024-06-24T08:16:32.114+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/sentiment_analysis.py for tasks to queue
+[2024-06-24T08:16:32.139+0000] {logging_mixin.py:188} INFO - [2024-06-24T08:16:32.132+0000] {dagbag.py:540} INFO - Filling up the DagBag from /opt/airflow/dags/sentiment_analysis.py
